@@ -37,7 +37,9 @@ function Card({ img, title, desc, link }: CardProps) {
                 >
                     {title}
                 </Typography>
-                <Typography variant="p">{desc}</Typography>
+                <Typography variant="p" className="max-w-[400px]">
+                    {desc}
+                </Typography>
                 <a href={link} target="_blank" rel="noreferrer">
                     <Button
                         variant="contained"

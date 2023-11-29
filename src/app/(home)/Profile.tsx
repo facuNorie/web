@@ -24,10 +24,12 @@ function Profile() {
                     I&apos;m a passionate frontend developer.
                 </Typography>
                 <div className="flex items-center justify-center gap-3 lg:justify-start">
-                    <Button variant="contained" className="font-semibold">
-                        <ResumeIcon />
-                        Resume
-                    </Button>
+                    <a href="pdf/cv-facunoriega.pdf" download>
+                        <Button variant="contained" className="font-semibold">
+                            <ResumeIcon />
+                            Resume
+                        </Button>
+                    </a>
                     <a
                         href="https://www.linkedin.com/in/facunorie/"
                         target="_blank"
