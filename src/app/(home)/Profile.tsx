@@ -24,7 +24,7 @@ function Profile() {
                     I&apos;m a passionate frontend developer.
                 </Typography>
                 <div className="flex items-center justify-center gap-3 lg:justify-start">
-                    <a href="pdf/cv-facunoriega.pdf" download>
+                    <a href="pdf/facundonoriega-resume.pdf" download>
                         <Button variant="contained" className="font-semibold">
                             <ResumeIcon />
                             Resume
